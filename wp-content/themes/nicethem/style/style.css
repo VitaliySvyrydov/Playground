@@ -1,0 +1,123 @@
+body {
+	background: url(../images/brickwall.png);
+}
+
+.container {
+	background: #fff;
+	border-left: 1px solid #dfdddd;
+	border-right: 1px solid #dfdddd;
+}
+
+/* Шапка */
+header {
+	height: 120px;
+}
+
+	/* Логотип или другая инфа */
+header .info {
+	float: left;
+	width: 520px;
+	padding-left: 9px;
+	color: #1b1c1c;
+}
+
+	/* Баннер в шапке */
+header .banner {
+	width: 400px;
+	height: 90px;
+	outline: 1px solid #ccc;
+	float: left;
+	margin-top: 10px;
+}
+
+/* Навигация */
+.navbar {
+	margin: 0 auto 10px auto;
+	width: 98%;
+	clear: both;
+}
+
+/* Контент */
+.content {
+	width: 660px;
+	padding: 10px;
+}
+
+/* Статья */
+.post .image {
+	width: 150px;
+	float: left;
+	margin-right: 20px;
+}
+
+.post h1 {
+	font-size: 24px;
+	line-height: 26px;
+	margin: 10px 0;
+}
+
+.post h1 span {
+	font-size: 18px;
+}
+
+.meta {
+	font-size: 12px;
+	padding: 5px;
+}
+
+/* Комментарии + форма */
+.comment {
+	width: 600px;
+	margin: 10px auto;
+}
+
+.comment .span6 {
+	width: 520px;
+}
+
+.form textarea {
+	resize: vertical;
+	width: 500px;
+	height: 150px;
+}
+
+/* Сайдбар */
+.sidebar {
+	padding: 10px;
+	width: 239px;
+	border-left: 1px dashed #ccc;
+}
+
+.sidebar-header {
+	font-size: 26px;
+	margin: 0;
+}
+
+/* Футер */
+footer {
+	background: url(../images/simple_dashed.png);
+	padding: 15px;
+	color: #fff;
+	clear: both;
+}
+
+footer a {
+	color: #26b5f7;
+}
+
+footer a:hover {
+	color: #26b5f7;
+}
+
+.footer-widget {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.footer-widget h2 {
+	color: #26b5f7;
+	font-size: 18px;
+	margin: 4px 0;
+	line-height: 22px;
+}

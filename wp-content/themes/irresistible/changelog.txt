@@ -1,0 +1,47 @@
+*** Irresistible Changelog ***
+
+2009.10.22 - version 2.1.1
+ * index.php - Updated line #9 and #18 (extra chars / bug).
+
+2009.08.30 - version 2.1
+ * /functions/* - Core Framework 1.0.7
+ * /lang/irresistible.po - Added language file. See: http://www.woothemes.com/2009/08/how-to-translate-a-theme/
+ * Added gettext functions to template php files to support localization.
+
+2009.08.20 - version 2.0.1
+  * /includes/video.php - fixed size for video in sidebar
+  * /includes/theme-options.php - fixed embed field in post
+  * /includes/theme-js.php - added superfish
+  * /includes/js/superfish.js - added superfish
+
+2009.08.06 - version 2.0.0
+  * /functions/ - New WooThemes Framework (V1.0.4) (core theme functions)
+     functions.php
+  * includes/theme-comments.php - Moved from /functions/
+     includes/theme-functions.php
+     includes/theme-js.php
+     includes/theme-options.php
+     includes/theme-widgets.php
+     includes/sidebar-init.php
+  * includes/theme-options.php - Added new general & dynamic images options
+  * header.php - Fixed checkbox options ( $var == 'true' instead of just $var )
+    index.php
+    sidebar.php
+    custom-home.php
+  * includes/video-home.php - Changed woo_get_custom to woo_get_embed
+    includes/video.php
+
+2009.07.01 - version 1.0.3
+  * style.css - Removed logo background image
+
+2009.06.17 - version 1.0.2
+  * style.css - Added styling for bold /italics line 470-471
+
+2009.06.11 - version 1.0.1
+  * functions.php - Changed to work with bug in WP 2.8
+  * includes/js/tabs.js - Fixed tabs for 2.8
+    includes/tabs.js
+    style.css - changed "Sidebar Tabber" section
+
+2009.02.20 - version 1.0
+  * First release!

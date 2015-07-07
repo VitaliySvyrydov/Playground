@@ -1,0 +1,662 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Punchcut WordPress Theme\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-03-07 12:20-0700\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Drew Strojny <themes@jestro.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:2
+msgid "404: Page Not Found"
+msgstr ""
+
+#: 404.php:4
+msgid "We are terribly sorry, but the URL you typed no longer exists. It might have been moved or deleted, or perhaps you mistyped it. We suggest searching the site:"
+msgstr ""
+
+#: archive.php:6
+#, php-format
+msgid "Posts from the  &#8216;%s&#8217; Category"
+msgstr ""
+
+#: archive.php:8
+#, php-format
+msgid "Posts tagged &#8216;%s&#8217;"
+msgstr ""
+
+#: archive.php:10
+#: archive.php:12
+#: archive.php:14
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:10
+msgid "F jS, Y"
+msgstr ""
+
+#: archive.php:12
+msgid "F, Y"
+msgstr ""
+
+#: archive.php:14
+msgid "Y"
+msgstr ""
+
+#: archive.php:16
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: archive.php:18
+msgid "Blog Archives"
+msgstr ""
+
+#: archive.php:22
+#: search.php:8
+msgid "comment"
+msgstr ""
+
+#: archive.php:25
+#: search.php:11
+msgid "n.j.y"
+msgstr ""
+
+#: archive.php:31
+#: index.php:28
+#: search.php:17
+msgid "&larr; Previous"
+msgstr ""
+
+#: archive.php:32
+#: index.php:29
+#: search.php:18
+msgid "Next &rarr;"
+msgstr ""
+
+#: comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:16
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:16
+msgid "One Comment"
+msgstr ""
+
+#: comments.php:16
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:18
+msgid "leave a comment"
+msgstr ""
+
+#: comments.php:27
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: comments.php:28
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: comments.php:31
+msgid "Trackbacks and Pingbacks"
+msgstr ""
+
+#: comments.php:37
+#: single.php:21
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:48
+msgid "Leave a Comment"
+msgstr ""
+
+#: comments.php:50
+msgid "You must be"
+msgstr ""
+
+#: comments.php:50
+msgid "logged in"
+msgstr ""
+
+#: comments.php:50
+msgid "to post a comment."
+msgstr ""
+
+#: comments.php:55
+msgid "Logged in as"
+msgstr ""
+
+#: comments.php:55
+msgid "Log out &raquo;"
+msgstr ""
+
+#: comments.php:57
+msgid "Name"
+msgstr ""
+
+#: comments.php:57
+msgid "(required)"
+msgstr ""
+
+#: comments.php:58
+#: header.php:67
+msgid "Email"
+msgstr ""
+
+#: comments.php:58
+msgid "(required, will not be published)"
+msgstr ""
+
+#: comments.php:59
+msgid "Website"
+msgstr ""
+
+#: comments.php:61
+msgid "Comment"
+msgstr ""
+
+#: comments.php:69
+msgid "Submit Comment"
+msgstr ""
+
+#: footer.php:5
+msgid "Links"
+msgstr ""
+
+#: footer.php:11
+msgid "Categories"
+msgstr ""
+
+#: footer.php:17
+msgid "Pages"
+msgstr ""
+
+#: footer.php:23
+msgid "Archives"
+msgstr ""
+
+#: footer.php:37
+msgid "Copyright"
+msgstr ""
+
+#: header.php:9
+msgid "Page Not Found |"
+msgstr ""
+
+#: header.php:11
+#: search.php:5
+#, php-format
+msgid "Search results for '%s'"
+msgstr ""
+
+#: header.php:72
+msgid "Flickr"
+msgstr ""
+
+#: header.php:77
+msgid "Facebook"
+msgstr ""
+
+#: header.php:81
+msgid "RSS Feed"
+msgstr ""
+
+#: header.php:91
+msgid "Home"
+msgstr ""
+
+#: index.php:7
+#: single.php:7
+msgid "M j"
+msgstr ""
+
+#: index.php:7
+#: single.php:7
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: index.php:14
+#: single.php:15
+msgid "read more..."
+msgstr ""
+
+#: index.php:15
+#: page.php:10
+#: single.php:16
+msgid "Edit This"
+msgstr ""
+
+#: index.php:19
+#: single.php:23
+msgid "Filed under"
+msgstr ""
+
+#: index.php:21
+msgid "<strong>0</strong>"
+msgstr ""
+
+#: index.php:21
+msgid "<strong>1</strong>"
+msgstr ""
+
+#: index.php:21
+msgid "<strong>%</strong>"
+msgstr ""
+
+#: search.php:23
+#, php-format
+msgid "No results found for '%s'"
+msgstr ""
+
+#: searchform.php:4
+msgid "Type and press enter"
+msgstr ""
+
+#: sidebar.php:9
+msgid "Recent Articles"
+msgstr ""
+
+#: functions/comments.php:30
+msgid "<em><strong>Please Note:</strong> Your comment is awaiting moderation.</em>"
+msgstr ""
+
+#: functions/punchcut-admin.php:60
+msgid " settings saved!"
+msgstr ""
+
+#: functions/punchcut-admin.php:61
+msgid " settings reset."
+msgstr ""
+
+#: functions/punchcut-admin.php:65
+msgid "Options"
+msgstr ""
+
+#: functions/punchcut-admin.php:68
+msgid "Need help?"
+msgstr ""
+
+#: functions/punchcut-admin.php:68
+msgid "Read the tutorials"
+msgstr ""
+
+#: functions/punchcut-admin.php:68
+msgid "or visit the <a href=\"http://thethemefoundry.com/forums/\">support forums.</a>"
+msgstr ""
+
+#: functions/punchcut-admin.php:70
+msgid "Free Trial"
+msgstr ""
+
+#: functions/punchcut-admin.php:71
+msgid "You are using the free trial version of Punchcut. Feel free to test it for as long as you wish. Upgrade to Punchcut PRO for extra features, unlimited access to dedicated support, priority theme updates, and comprehensive theme tutorials."
+msgstr ""
+
+#: functions/punchcut-admin.php:72
+msgid "Learn more about Punchcut PRO &rarr;"
+msgstr ""
+
+#: functions/punchcut-admin.php:84
+#: functions/punchcut-admin.php:199
+msgid "Save changes"
+msgstr ""
+
+#: functions/punchcut-admin.php:153
+msgid "show color picker"
+msgstr ""
+
+#: functions/punchcut-admin.php:153
+msgid "hide color picker"
+msgstr ""
+
+#: functions/punchcut-admin.php:204
+msgid "Save all changes"
+msgstr ""
+
+#: functions/punchcut-admin.php:210
+msgid "Reset all options"
+msgstr ""
+
+#: functions/punchcut-extend.php:29
+msgid "Custom Logo Image <span>insert your custom logo image in the header</span>"
+msgstr ""
+
+#: functions/punchcut-extend.php:32
+msgid "Enable custom logo image"
+msgstr ""
+
+#: functions/punchcut-extend.php:35
+msgid "Check to use a custom logo in the header."
+msgstr ""
+
+#: functions/punchcut-extend.php:39
+msgid "Logo image file name"
+msgstr ""
+
+#: functions/punchcut-extend.php:42
+msgid "Upload your logo image here: "
+msgstr ""
+
+#: functions/punchcut-extend.php:46
+msgid "Logo image <code>&lt;alt&gt;</code> tag"
+msgstr ""
+
+#: functions/punchcut-extend.php:49
+msgid "Specify the <code>&lt;alt&gt;</code> tag for your logo image."
+msgstr ""
+
+#: functions/punchcut-extend.php:53
+msgid "Display tagline"
+msgstr ""
+
+#: functions/punchcut-extend.php:56
+msgid "Check to show your tagline below your logo."
+msgstr ""
+
+#: functions/punchcut-extend.php:60
+msgid "Follow Icons <span>control the follow icons in the top right of your header</span>"
+msgstr ""
+
+#: functions/punchcut-extend.php:63
+msgid "Enable Twitter"
+msgstr ""
+
+#: functions/punchcut-extend.php:66
+msgid "Hip to Twitter? Check this box."
+msgstr ""
+
+#: functions/punchcut-extend.php:70
+msgid "Enable Facebook"
+msgstr ""
+
+#: functions/punchcut-extend.php:72
+msgid "Check this box to show a link to your Facebook page."
+msgstr ""
+
+#: functions/punchcut-extend.php:76
+msgid "Enable Flickr"
+msgstr ""
+
+#: functions/punchcut-extend.php:78
+msgid "Check this box to show a link to Flickr."
+msgstr ""
+
+#: functions/punchcut-extend.php:82
+msgid "Enable email"
+msgstr ""
+
+#: functions/punchcut-extend.php:84
+msgid "Check this box to show a link to email updates."
+msgstr ""
+
+#: functions/punchcut-extend.php:88
+msgid "Disable all"
+msgstr ""
+
+#: functions/punchcut-extend.php:90
+msgid "Check this box to hide all follow icons (including RSS). This option overrides any other settings."
+msgstr ""
+
+#: functions/punchcut-extend.php:94
+msgid "Twitter link"
+msgstr ""
+
+#: functions/punchcut-extend.php:97
+msgid "Enter your twitter link here."
+msgstr ""
+
+#: functions/punchcut-extend.php:100
+msgid "Facebook link"
+msgstr ""
+
+#: functions/punchcut-extend.php:102
+msgid "Enter your Facebook link."
+msgstr ""
+
+#: functions/punchcut-extend.php:105
+msgid "Flickr link"
+msgstr ""
+
+#: functions/punchcut-extend.php:107
+msgid "Enter your Flickr link."
+msgstr ""
+
+#: functions/punchcut-extend.php:110
+msgid "Email link"
+msgstr ""
+
+#: functions/punchcut-extend.php:112
+msgid "Enter your email updates link."
+msgstr ""
+
+#: functions/punchcut-extend.php:115
+msgid "Navigation <span>control your top navigation menu</span>"
+msgstr ""
+
+#: functions/punchcut-extend.php:118
+msgid "Hide all pages"
+msgstr ""
+
+#: functions/punchcut-extend.php:120
+msgid "Check this box to hide all pages"
+msgstr ""
+
+#: functions/punchcut-extend.php:124
+msgid "Exclude specific pages"
+msgstr ""
+
+#: functions/punchcut-extend.php:127
+msgid "The page ID of pages you do not want displayed in your navigation menu. Use a comma-delimited list, eg. 1,2,3"
+msgstr ""
+
+#: functions/punchcut-extend.php:131
+msgid "Hide all categories"
+msgstr ""
+
+#: functions/punchcut-extend.php:133
+msgid "Check this box to hide all categories."
+msgstr ""
+
+#: functions/punchcut-extend.php:137
+msgid "Exclude specific categories"
+msgstr ""
+
+#: functions/punchcut-extend.php:140
+msgid "The category ID of pages you do not want displayed in your navigation menu.. Use a comma-delimited list, eg. 1,2,3"
+msgstr ""
+
+#: functions/punchcut-extend.php:144
+msgid "Hide home navigation menu item"
+msgstr ""
+
+#: functions/punchcut-extend.php:146
+msgid "Check this box if you are using a static page as your homepage instead of your blog (the default). The extra <em>Home</em> menu item will be removed."
+msgstr ""
+
+#: functions/punchcut-extend.php:150
+msgid "Color Scheme <span>customize your color scheme</span>"
+msgstr ""
+
+#: functions/punchcut-extend.php:153
+msgid "Customize colors"
+msgstr ""
+
+#: functions/punchcut-extend.php:155
+msgid "If enabled your theme will use the layouts and colors you choose below."
+msgstr ""
+
+#: functions/punchcut-extend.php:158
+msgid "Disabled"
+msgstr ""
+
+#: functions/punchcut-extend.php:159
+msgid "Enabled"
+msgstr ""
+
+#: functions/punchcut-extend.php:161
+msgid "Background color"
+msgstr ""
+
+#: functions/punchcut-extend.php:164
+msgid "The background will not match your color selection exactly, your color choice is blended with a transparent background image to give it texture. Use hex values and be sure to include the leading #."
+msgstr ""
+
+#: functions/punchcut-extend.php:168
+msgid "Link color"
+msgstr ""
+
+#: functions/punchcut-extend.php:170
+#: functions/punchcut-extend.php:176
+msgid "Use hex values and be sure to include the leading #."
+msgstr ""
+
+#: functions/punchcut-extend.php:174
+msgid "Link hover color"
+msgstr ""
+
+#: functions/punchcut-extend.php:180
+msgid "Alert Box <span>toggle your custom alert box</span>"
+msgstr ""
+
+#: functions/punchcut-extend.php:183
+msgid "Alert Box on/off switch"
+msgstr ""
+
+#: functions/punchcut-extend.php:186
+msgid "Toggle the alert box on or off."
+msgstr ""
+
+#: functions/punchcut-extend.php:189
+msgid "Off"
+msgstr ""
+
+#: functions/punchcut-extend.php:190
+msgid "On"
+msgstr ""
+
+#: functions/punchcut-extend.php:192
+msgid "Alert Header"
+msgstr ""
+
+#: functions/punchcut-extend.php:195
+msgid "The heading for your alert."
+msgstr ""
+
+#: functions/punchcut-extend.php:199
+msgid "Alert Message"
+msgstr ""
+
+#: functions/punchcut-extend.php:202
+msgid "You may use HTML in the message."
+msgstr ""
+
+#: functions/punchcut-extend.php:208
+msgid "Sidebar Image <span>control your sidebar image state</span>"
+msgstr ""
+
+#: functions/punchcut-extend.php:211
+msgid "Image state"
+msgstr ""
+
+#: functions/punchcut-extend.php:212
+msgid "Add your images to the sidebar rotation by uploading them here: "
+msgstr ""
+
+#: functions/punchcut-extend.php:212
+msgid "PRO Tutorial: Use page and post specific images"
+msgstr ""
+
+#: functions/punchcut-extend.php:216
+msgid "Rotating images"
+msgstr ""
+
+#: functions/punchcut-extend.php:217
+#: functions/punchcut-extend.php:228
+msgid "Static image"
+msgstr ""
+
+#: functions/punchcut-extend.php:218
+#: functions/punchcut-extend.php:240
+msgid "Custom code"
+msgstr ""
+
+#: functions/punchcut-extend.php:219
+msgid "Page or post specific"
+msgstr ""
+
+#: functions/punchcut-extend.php:220
+msgid "Do not show an image"
+msgstr ""
+
+#: functions/punchcut-extend.php:222
+msgid "Image <code>&lt;alt&gt;</code> tag"
+msgstr ""
+
+#: functions/punchcut-extend.php:224
+msgid "The <code>&lt;alt&gt;</code> tag for your sidebar image(s). Will default to your blog title if left blank."
+msgstr ""
+
+#: functions/punchcut-extend.php:230
+msgid "Set the <em>Image State</em> to \"Static Image\" and upload your image here: "
+msgstr ""
+
+#: functions/punchcut-extend.php:234
+msgid "Image link"
+msgstr ""
+
+#: functions/punchcut-extend.php:236
+msgid "Define a hyperlink for your sidebar image. If left empty the anchor tags will not be included."
+msgstr ""
+
+#: functions/punchcut-extend.php:242
+msgid "Replace your sidebar image with custom code. The <em>Image State</em> must be set to \"Custom code\" for this to work."
+msgstr ""
+
+#: functions/punchcut-extend.php:248
+msgid "Footer <span>customize your footer</span>"
+msgstr ""
+
+#: functions/punchcut-extend.php:251
+msgid "Copyright notice"
+msgstr ""
+
+#: functions/punchcut-extend.php:253
+msgid "Your name or the name of your business."
+msgstr ""
+
+#: functions/punchcut-extend.php:254
+msgid "Your Name Here"
+msgstr ""
+
+#: functions/punchcut-extend.php:257
+msgid "Stats code"
+msgstr ""
+
+#: functions/punchcut-extend.php:259
+msgid "If you use Google Analytics or need any other tracking script in your footer just copy and paste it here. The script will be inserted before the closing <code>&#60;/body&#62;</code> tag."
+msgstr ""
+
+#: functions/sidebars.php:4
+msgid "Sidebar"
+msgstr ""
+
+#: functions/sidebars.php:13
+msgid "Footer"
+msgstr ""
+
