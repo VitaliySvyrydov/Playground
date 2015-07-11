@@ -33,13 +33,7 @@
                 wp_nav_menu($args);
             }
             ?>
+             
             </header>
-        <div id="wrapper">
-
-            <header id="masthead" class="site-header" role="banner">
-                <div class="site-branding">
-                </div>
-            </header>
-           
-
-            <div id="content" class="site-content">
+       
+                

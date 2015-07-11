@@ -91,16 +91,14 @@ function flexaspect_scripts() {
 
         // Register Styles
         wp_register_style( 'main-stylesheet', get_stylesheet_uri() );
-        wp_register_style( 'all', get_template_directory_uri() .'/css/all.css' );
-
-        if ( is_child_theme() ) {
-                wp_register_style( 'child-stylesheet', get_stylesheet_uri() .'/style.css' );
-        }
+        wp_register_style( 'all', get_template_directory_uri() .'/css/style.css' );
+        wp_register_style( 'fonts-smith', 'http://fonts.googleapis.com/css?family=Lato' );
 
         // Enqueue Styles
         wp_enqueue_style('main-stylesheet');
         wp_enqueue_style('all');
-
+        wp_enqueue_style('fonts-smith');
+        
         // Register Scripts
 
         wp_register_script( 'main',  get_template_directory_uri() .'/js/main.js', array('jquery'), false, true );

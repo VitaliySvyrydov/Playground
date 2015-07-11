@@ -1,11 +1,10 @@
-        </div><!-- .site-content -->
-
-	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url(home_url('/')); ?>"><?php printf( __( 'Proudly powered by FlexAspect', 'flexaspect' )); ?></a>
-		</div><!-- .site-info -->
-	</footer><!-- .site-footer -->
-
+<footer>
+                <div class="footer_center">
+                    <p>
+                        <?php _e('Copyright', 'flexaspect')?> <?php echo date("Y")?> <?php _e('by PSDchat', 'flexaspect')?>
+                    </p>
+                </div>
+            </footer>
 </div><!-- .wrapper -->
 
 <?php wp_footer(); ?>
