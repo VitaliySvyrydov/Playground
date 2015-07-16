@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smith_blog</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+        <div id="wrapper" class="blog">
+            <header>
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="centeredmenu">
+                    <ul>
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li class="indent"><a href="#">BLOG</a></li>
+                        <li><a href="#">GET IN TOUCH</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="post-list">
+                    <ul>
+                        <li>
+                            <a href ="">
+                                <img src="images/roza.jpg" alt="фото">
+                                <h3>Описание</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="">
+                                <img src="images/roza.jpg" alt="фото">
+                                <h3>Описание</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="">
+                                <img src="images/roza.jpg" alt="фото">
+                                <h3>Описание</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="">
+                                <img src="images/roza.jpg" alt="фото">
+                                <h3>Описание</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="">
+                                <img src="images/roza.jpg" alt="фото">
+                                <h3>Описание</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="">
+                                <img src="images/roza.jpg" alt="фото">
+                                <h3>Описание</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="">
+                                <img src="images/roza.jpg" alt="фото">
+                                <h3>Описание</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href ="">
+                                <img src="images/roza.jpg" alt="фото">
+                                <h3>Описание</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                            </a>
+                        </li>
+                    </ul>                
+            </div>
+            <div class="pagination">
+                <ul id="pagination-flickr">
+                    <li class="previous-off">«Previous</li>
+                    <li><span>1</span></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li class="next"><a href="#">Next »</a></li>
+                </ul>
+            </div>
+            <footer>
+                <div class="footer_center">
+                    <p>
+                        Copyright 2013 by PSDchat
+                    </p>
+                </div>
+            </footer>
+        </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script>
+            jQuery(document).ready(function($){
+
+                /* prepend menu icon */
+                //$('#nav-wrap').prepend('<div id="menu-icon">Menu</div>');
+
+                /* toggle nav */
+                $(".logo").on("click", function(){
+               // $("#nav").slideToggle();
+                    $('header').toggleClass('mob-active');
+                });
+
+                });
+        </script>
+    </body>
+</html>

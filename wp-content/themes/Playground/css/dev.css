@@ -1,0 +1,49 @@
+.page-numbers{
+    overflow: hidden;
+    max-width: 300px;
+    margin: 0 auto 20px;
+}
+.page-numbers li{
+    font-size:11px;
+    list-style:none;
+}
+.page-numbers a{
+    border:solid 1px #DDDDDD;
+    margin-right:2px;
+
+
+}
+.page-numbers .prev,
+.page-numbers .next {
+    color:#666666;
+    display:block;
+    float:left;
+    font-weight:bold;
+    padding:3px 4px;
+}
+.page-numbers .next a,
+.page-numbers .previous a {
+    font-weight:bold;
+    border:solid 1px #FFFFFF;
+
+} 
+.page-numbers li span{
+    color:#ff0084;
+    font-weight:bold;
+    display:block;
+    float:left;
+    padding:4px 6px;
+
+
+}
+.page-numbers a:link,
+.page-numbers a:visited {
+    display:block;
+    float:left;
+    padding:3px 6px;
+    text-decoration:none;
+    color: #323232;
+}
+.page-numbers a:hover{
+    border:solid 1px #666666;
+}

@@ -63,7 +63,8 @@ get_header();
                                 echo '<h2>'.get_field('second_title', get_the_ID()).'</h2>';
                             } ?>
                             <?php the_content();?>
-                            <ul class="socials">
+                            <div class="socials">
+                            <ul>
                                 <li>
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/facebook.png" alt="socials" >
                                 </li> 
@@ -83,6 +84,7 @@ get_header();
                                     <img src="<?php echo get_template_directory_uri(); ?>/images/dribble.jpg" alt="socials">
                                 </li> 
                             </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -95,8 +97,8 @@ get_header();
                     <h2>In order to get in touch use the contact form below:</h2>
                     <form action="http://localhost/2videos/wp-content/themes/Playground/form_handler.php" class="conteiner_form" method="post">
                         <input type="text" name="name" maxlength="35" placeholder="Name(Required)" value=""> 
-                        <input type="text" name="Email" maxlength="35" placeholder="Email(Required)" value="">
-                        <input type="text" name="Subject" maxlength="35" placeholder="Subject" value="">
+                        <input type="text" name="email" maxlength="35" placeholder="Email(Required)" value="">
+                        <input type="text" name="subject" maxlength="35" placeholder="Subject" value="">
                         <textarea rows="10" cols="10" name="text" placeholder="Write you message here..."></textarea> 
                         <input type="submit" value="SEND">
                     </form>

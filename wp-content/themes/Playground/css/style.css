@@ -48,7 +48,7 @@ table {
 
 #wrapper{
     margin: 0 auto;
-    width: 100%;
+    width: 100%;   
 }
 header{
     width:100%;
@@ -61,7 +61,6 @@ header{
     position: absolute;
     margin-left: -75px;
 }
-
 .centeredmenu {
     float:left;
     width:100%;
@@ -91,13 +90,14 @@ header{
     color: #fff;
     font-family: 'Lato', arial;
 }
-
 .centeredmenu .indent{
     margin-left: 117px;
 }
-
 .centeredmenu ul li a:hover{
     color: #2f917d;
+}
+.centeredmenu ul li:last-child{
+    margin-right: 0;
 }
 #main{
     max-width: 1020px;
@@ -122,6 +122,7 @@ header{
     overflow: hidden;
 }
 .center{
+    width:100%;
     max-width: 1020px;
     margin: 0 auto;
 }
@@ -130,8 +131,7 @@ header{
 }
 .foto{
     float: left;
-    margin: 2px 20px 0 105px
-
+    margin: 2px 20px 0 105px;
 }
 .about_him{
     margin: 65px 120px 20px 0;
@@ -153,18 +153,19 @@ header{
     float: right;
     margin: 38px 14px 61px 0;
 }
-.socials li{
+.socials ul li{
     float: left;
 }
 .wrap{
     background-color: #323232;
-    height: 565px;
     color: #fff;
+    height:auto;
 }
 .form-holder{
     max-width:810px;
     margin: 0 auto;
     font: 1em 'Lato', sans-serif;
+    overflow: hidden;
 }
 .conteiner_form{
     width: 72%;
@@ -214,7 +215,7 @@ input[type="submit"]{
     height: 37px;
     float: right;
     border: none;
-    margin-right: 4px;
+    margin: 0 4px 15px 0;
     font: 0.7em 'Lato', sans-serif;  
 
 }
@@ -239,4 +240,239 @@ footer p{
     color: #3a3a3a;   
     font: 0.75em 'Lato', sans-serif; 
     padding: 13px 0 0 38px;
+}
+#post-list{
+    width: 60%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+#post-list ul li{
+    list-style: none;
+    float: left;
+    font:10px/1.5 verdana, sans-serif;
+    width: 20%;
+    margin: 2% 2% 30px 2%;
+
+}
+#post-list ul li a{
+    color: #323232;  
+    text-align: center;
+    text-decoration: none;
+}
+#post-list p{
+    max-height: 80px;
+    overflow: hidden; 
+}
+#post-list h3{
+    font: 1.5em bold verdana, sans-serif;
+}
+#post-list ul li a img{
+    height: auto;
+    max-width: 100%; 
+    border: 2px solid  #323232;
+}
+#pagination-flickr{
+    overflow: hidden;
+    max-width: 300px;
+    margin: 0 auto 20px;
+}
+#pagination-flickr li{
+    font-size:11px;
+    list-style:none;
+}
+#pagination-flickr a{
+    border:solid 1px #DDDDDD;
+    margin-right:2px;
+
+
+}
+#pagination-flickr .previous-off,
+#pagination-flickr .next-off {
+    color:#666666;
+    display:block;
+    float:left;
+    font-weight:bold;
+    padding:3px 4px;
+}
+#pagination-flickr .next a,
+#pagination-flickr .previous a {
+    font-weight:bold;
+    border:solid 1px #FFFFFF;
+
+} 
+#pagination-flickr .active{
+    color:#ff0084;
+    font-weight:bold;
+    display:block;
+    float:left;
+    padding:4px 6px;
+
+
+}
+#pagination-flickr a:link,
+#pagination-flickr a:visited {
+    display:block;
+    float:left;
+    padding:3px 6px;
+    text-decoration:none;
+    color: #323232;
+}
+#pagination-flickr a:hover{
+    border:solid 1px #666666;
+}
+#main_form{
+    background-color: #C0C0C0;
+    margin: 0 auto;
+    width: 100%;
+}
+#main_form .form-holder{
+    max-width:810px;
+    margin: 0 auto;
+    font: 1em 'Lato', sans-serif;
+}
+#main_form h1, h2{
+    text-align: center;
+}
+#main_form #map-holder{
+    width: 100%;
+    height: 300px;
+
+}
+#main_form #map-holder .map{
+    width: 65%;
+    height: 100%;
+    float: left;
+    margin: 20px 20px 30px;
+    border:2px solid #454545;
+
+}
+.conteiner_form{
+    width: 100%;
+
+}
+#map-canvas { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0; 
+}
+@media only screen and (max-width : 768px),
+only screen and(max-device-width : 768px){
+    .center{
+        text-align:center;
+    }
+    .foto{
+        float: none;
+        margin: 15px 0;
+    }
+    .about_him{
+        margin: 0 20px;
+    }
+    .socials {
+        margin: 10px auto;
+        text-align:center;
+        display: inline-block;
+        float: none;
+    }
+    .gallery{
+        margin: 35px 5px;
+    }
+    .logo{
+        margin-left: -60px;
+    }
+    .form-holder{
+        text-align: center;
+    }
+    .conteiner_form{
+        float: none;
+        width: 96%;
+        margin: 10px 2% 10px 2%;
+    }
+    input[type="submit"]{
+        width: 99%;
+        margin: 0;
+        float: none;
+    }
+    .contact{
+        width: 90%;     
+        float: none;
+        font: 1em 'Lato', sans-serif;
+        line-height: 1.5;
+        word-spacing: 2px;
+        margin: 10px auto 0;
+    }
+    .contact ul{
+        padding: 15px 0;
+    }
+    .form-holder h1{
+        padding-top: 20px;
+    }
+    .contact ul li{
+        float: left;
+    }
+    #post-list{
+        width: 90%;
+        margin: 20px auto;
+    }
+    #post-list ul li{
+        width: 29%;
+        margin: 3% 2% 30px 2%;     
+    }
+}
+@media only screen and (max-width : 360px),
+only screen and(max-device-width : 360px){
+    input[type="text"]{
+        padding-left: 5px;
+    }
+    textarea{
+        padding-left: 5px;
+    }
+    .contact ul li{
+        margin: 0 35px 10px;;
+    }
+    .contact ul{
+        padding: 10px 0;
+    }
+    .centeredmenu ul li{
+        margin: 0 auto;
+        float: none;
+    }
+    .centeredmenu .indent{
+        margin: 0;
+    }
+    .gallery{
+        margin: 20% 5px 10%;
+    }
+    .centeredmenu{
+        display: none;
+    }
+    #wrapper .mob-active .centeredmenu{
+        display: block;
+    }
+    #wrapper .mob-active{
+        height: 163px;
+    }
+    #wrapper .mob-active .logo{
+        margin-top: 100px;
+    }
+    #wrapper .centeredmenu ul li{
+        border-bottom: 1px solid #fff;       
+    }
+    #wrapper .centeredmenu ul{
+        width: 90%;
+    }
+    #post-list{
+        width: 95%;
+        margin: 20px auto;
+        text-align: center;
+    }
+    #post-list ul li{
+        width: 94%;
+        margin: 5% 2% 30px 2%;     
+    } 
+    #main_form #map-holder .map{
+        width: 93%;
+        height: 100%;
+        float: none;
+        margin: 10px 10px 20px;
+    }  
 }

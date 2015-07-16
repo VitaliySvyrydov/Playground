@@ -1,5 +1,5 @@
 <footer>
-                <div class="footer_center">
+                <div  class="footer_center">
                     <p>
                         <?php _e('Copyright', 'flexaspect')?> <?php echo date("Y")?> <?php _e('by PSDchat', 'flexaspect')?>
                     </p>

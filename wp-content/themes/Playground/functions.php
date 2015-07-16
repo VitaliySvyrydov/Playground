@@ -93,12 +93,12 @@ function flexaspect_scripts() {
         wp_register_style( 'main-stylesheet', get_stylesheet_uri() );
         wp_register_style( 'all', get_template_directory_uri() .'/css/style.css' );
         wp_register_style( 'fonts-smith', 'http://fonts.googleapis.com/css?family=Lato' );
-
+        wp_register_style( 'dev', get_template_directory_uri() .'/css/dev.css' );
         // Enqueue Styles
         wp_enqueue_style('main-stylesheet');
         wp_enqueue_style('all');
         wp_enqueue_style('fonts-smith');
-        
+        wp_enqueue_style('dev');
         // Register Scripts
 
         wp_register_script( 'main',  get_template_directory_uri() .'/js/main.js', array('jquery'), false, true );
@@ -191,3 +191,24 @@ function page_default_comments_off( $data ) {
     return $data;
 }
 add_filter( 'wp_insert_post_data', 'page_default_comments_off' );
+
+function my_pagenavi() {
+	global $wp_query;
+
+	$big = 999999999; // уникальное число для замены
+
+	$args = array(
+		'base' => str_replace( $big, '%#%', get_pagenum_link( $big ) )
+		,'format' => ''
+		,'current' => max( 1, get_query_var('paged') )
+		,'total' => $wp_query->max_num_pages
+                ,'type'         => 'list'
+	);
+
+	$result = paginate_links( $args );
+
+	// удаляем добавку к пагинации для первой страницы
+	$result = str_replace( '/page/1/', '', $result );
+
+	echo '<div class="pagination">'.$result.'</div>';
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smith_blog</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css"> 
+        <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+    </head>
+    <body>
+        <div id="wrapper">
+            <header>
+                <div class="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav class="centeredmenu">
+                    <ul>
+                        <li><a href="#">PORTFOLIO</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li class="indent"><a href="#">BLOG</a></li>
+                        <li><a href="#">GET IN TOUCH</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div id="main_form">              
+                <div class="form-holder">
+                    <h1>Get In Touch</h1>
+                    <h2>In order to get in touch use the contact form below:</h2>
+                    <form class="conteiner_form">
+                        <input type="text" name="name" maxlength="35" placeholder="Name(Required)" value=""> 
+                        <input type="text" name="Email" maxlength="35" placeholder="Email(Required)" value="">
+                        <input type="text" name="Subject" maxlength="35" placeholder="Subject" value="">
+                        <textarea rows="10" cols="10" name="text" placeholder="Write you message here..."></textarea> 
+                        <input type="submit" value="SEND">
+                    </form>
+                    <div id="map-holder" >
+                        <div class="map">
+                            <div id="map-canvas"></div>
+                        </div>
+                        <div class="contact">
+                            <p>
+                                Quisque Hendrerit: purus dapi- bus, ornare nibh vitae, viverra nibh.
+                                Fusce vitae aliquam tellus. Proin sit amet volutpat libero. 
+                                Nulla sed nunc et tortor luctus faucibus morbi vitae.
+                            </p>
+                            <ul>
+                                <li>
+                                    <img src="images/location.png" alt="location">
+                                    Elm St. 14/05 Lost City
+                                </li>
+                                <li>
+                                    <img src="images/phone.png" alt="socials">
+                                    + 3528 331 86 35
+                                </li>
+                                <li>
+                                    <img src="images/mail.png" alt="socials">
+                                    info@hexalcorp.com
+                                </li>
+                            </ul>
+                        </div>  
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="footer_center">
+                    <p>
+                        Copyright 2013 by PSDchat
+                    </p>
+                </div>
+            </footer>
+        </div>
+
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script>
+            jQuery(document).ready(function ($) {
+
+                /* prepend menu icon */
+                //$('#nav-wrap').prepend('<div id="menu-icon">Menu</div>');
+
+                /* toggle nav */
+                $(".logo").on("click", function () {
+                    // $("#nav").slideToggle();
+                    $('header').toggleClass('mob-active');
+                });
+
+            });
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+        <script>
+            function initialize() {
+                var myLatlng = new google.maps.LatLng(-25.363882, 131.044922);
+                var mapOptions = {
+                    zoom: 4,
+                    center: myLatlng
+                }
+                var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+
+                var marker = new google.maps.Marker({
+                    position: myLatlng,
+                    map: map,
+                    title: 'Albatros'
+                });
+            }
+
+            google.maps.event.addDomListener(window, 'load', initialize);
+
+        </script>
+
+
+
+    </body>
+</html>

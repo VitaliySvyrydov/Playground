@@ -2,9 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Smith_blog</title>
         <link rel="stylesheet" type="text/css" href="css/styles.css"> 
         <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+        
     </head>
     <body>
         <div id="wrapper">
@@ -53,8 +55,10 @@
                 </ul>
             </div>
             <div class="container">
-                <div class="center">                           
-                    <img src="images/smith.png" alt="foto" class="foto">
+                <div class="center">
+                    <div class="his_foto">
+                        <img src="images/smith.png" alt="foto" class="foto">
+                    </div>
                     <div class="about_him">
                         <h1>Smith Anderson</h1>
                         <h2>Illustrator Character designer</h2>
@@ -64,26 +68,28 @@
                             Morbi egestas sit amet velit eget venenatis.
                             Mauris porttitor, nibh at sagittis tristique, enim magna pretium augue, eget consectetur sem dui non urna
                         </p>
-                        <ul class="socials">
-                            <li>
-                                <img src="images/facebook.png" alt="socials" >
-                            </li> 
-                            <li>
-                                <img src="images/twitter.png" alt="socials" >
-                            </li> 
-                            <li>
-                                <img src="images/google.jpg" alt="socials" >
-                            </li> 
-                            <li>
-                                <img src="images/pinterest.jpg" alt="socials" >
-                            </li> 
-                            <li>
-                                <img src="images/in.jpg" alt="socials">
-                            </li> 
-                            <li>
-                                <img src="images/dribble.jpg" alt="socials">
-                            </li> 
-                        </ul>
+                        <div class="socials">
+                            <ul>
+                                <li>
+                                    <img src="images/facebook.png" alt="socials" >
+                                </li> 
+                                <li>
+                                    <img src="images/twitter.png" alt="socials" >
+                                </li> 
+                                <li>
+                                    <img src="images/google.jpg" alt="socials" >
+                                </li> 
+                                <li>
+                                    <img src="images/pinterest.jpg" alt="socials" >
+                                </li> 
+                                <li>
+                                    <img src="images/in.jpg" alt="socials">
+                                </li> 
+                                <li>
+                                    <img src="images/dribble.jpg" alt="socials">
+                                </li> 
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -91,30 +97,30 @@
                 <div class="form-holder">
                     <h1>Get In Touch</h1>
                     <h2>In order to get in touch use the contact form below:</h2>
-                    <form action="/" class="conteiner_form" method="post">
+                    <form class="conteiner_form">
                         <input type="text" name="name" maxlength="35" placeholder="Name(Required)" value=""> 
-                        <input type="text" name="email" maxlength="35" placeholder="Email(Required)" value="">
-                        <input type="text" name="subject" maxlength="35" placeholder="Subject" value="">
+                        <input type="text" name="Email" maxlength="35" placeholder="Email(Required)" value="">
+                        <input type="text" name="Subject" maxlength="35" placeholder="Subject" value="">
                         <textarea rows="10" cols="10" name="text" placeholder="Write you message here..."></textarea> 
                         <input type="submit" value="SEND">
                     </form>
                     <div class="contact">
                         <p>
-                            Quisque Hendrerit: purus dapibus, ornare nibh vitae, viverra nibh.
+                            Quisque Hendrerit: purus dapi- bus, ornare nibh vitae, viverra nibh.
                             Fusce vitae aliquam tellus. Proin sit amet volutpat libero. 
                             Nulla sed nunc et tortor luctus faucibus morbi vitae.
                         </p>
                         <ul>
                             <li>
-                                <img src="image/location.png" alt="location">
+                                <img src="images/location.png" alt="location">
                                 Elm St. 14/05 Lost City
                             </li>
                             <li>
-                                <img src="image/phone.png" alt="socials">
+                                <img src="images/phone.png" alt="socials">
                                 + 3528 331 86 35
                             </li>
                             <li>
-                                <img src="image/mail.png" alt="socials">
+                                <img src="images/mail.png" alt="socials">
                                 info@hexalcorp.com
                             </li>
                         </ul>
@@ -122,9 +128,27 @@
                 </div> 
             </div>
             <footer>
-
-
+                <div class="footer_center">
+                    <p>
+                        Copyright 2013 by PSDchat
+                    </p>
+                </div>
             </footer>
         </div>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script>
+            jQuery(document).ready(function($){
+
+                /* prepend menu icon */
+                //$('#nav-wrap').prepend('<div id="menu-icon">Menu</div>');
+
+                /* toggle nav */
+                $(".logo").on("click", function(){
+               // $("#nav").slideToggle();
+                    $('header').toggleClass('mob-active');
+                });
+
+                });
+        </script>
     </body>
 </html>
